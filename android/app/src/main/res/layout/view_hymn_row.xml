@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="?attr/selectableItemBackground">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="64dp" android:gravity="center_vertical" android:orientation="horizontal"
+        android:paddingHorizontal="20dp" android:paddingVertical="10dp">
+        <TextView android:id="@+id/hymn_number" android:layout_width="36dp" android:layout_height="36dp"
+            android:gravity="center" android:background="@drawable/bg_hymn_number"
+            android:fontFamily="@font/inter" android:textColor="@color/forest" android:textSize="14sp" android:textStyle="bold" />
+        <TextView android:id="@+id/number_title" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:fontFamily="@font/inter" android:textColor="@color/charcoal"
+            android:textSize="16sp" android:lineSpacingExtra="2dp" />
+        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+            android:src="@drawable/ic_round_chevron" android:contentDescription="Open song" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" android:background="@color/divider" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <style name="Theme.Nyimbo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorSecondary">@color/forest</item>
+        <item name="colorTertiary">@color/gold</item>
+        <item name="android:colorBackground">@color/ivory</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Nyimbo.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Nyimbo.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Nyimbo.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Nyimbo.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Nyimbo.LabelMedium</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Nyimbo.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Nyimbo.TitleMedium</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Nyimbo.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Nyimbo.HeadlineMedium</item>
+    </style>
+    <style name="Theme.Nyimbo.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_navy</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/nyimbo_agendi_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.Nyimbo</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="TextAppearance.Nyimbo.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/inter</item><item name="android:fontFamily">@font/inter</item>
+    </style>
+</resources>

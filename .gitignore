@@ -1,0 +1,11 @@
+.env
+**/build/
+**/.gradle/
+**/local.properties
+**/google-services.json
+backend/uploads/
+backend/target/
+*.jks
+*.keystore
+/keystore/
+/release-signing.properties

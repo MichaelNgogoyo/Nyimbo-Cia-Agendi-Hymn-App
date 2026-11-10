@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_round_hymns" android:title="Nyimbo" />
+    <item android:id="@+id/nav_events" android:icon="@drawable/ic_round_events" android:title="Events" />
+    <item android:id="@+id/nav_favorites" android:icon="@drawable/ic_round_favorites" android:title="Favorites" />
+    <item android:id="@+id/nav_settings" android:icon="@drawable/ic_round_settings" android:title="Settings" />
+</menu>

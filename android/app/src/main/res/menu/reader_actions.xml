@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/reader_favorite_action" android:title="Save hymn"
+        android:icon="@drawable/ic_round_favorite"
+        app:showAsAction="always" />
+</menu>

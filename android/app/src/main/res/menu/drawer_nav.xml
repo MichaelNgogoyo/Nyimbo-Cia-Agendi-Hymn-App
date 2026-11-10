@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_round_hymns" android:title="@string/nav_hymns" />
+    <item android:id="@+id/nav_events" android:icon="@drawable/ic_round_events" android:title="@string/nav_events" />
+    <item android:id="@+id/nav_favorites" android:icon="@drawable/ic_round_favorites" android:title="@string/nav_favorites" />
+    <item android:id="@+id/nav_settings" android:icon="@drawable/ic_round_settings" android:title="@string/nav_settings" />
+    <item android:id="@+id/nav_about" android:icon="@drawable/ic_round_info" android:title="@string/nav_about" />
+    <item android:id="@+id/nav_share" android:icon="@drawable/ic_round_share" android:title="@string/nav_share" />
+</menu>

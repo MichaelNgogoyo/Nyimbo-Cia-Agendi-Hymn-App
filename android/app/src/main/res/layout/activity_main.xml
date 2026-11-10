@@ -1,0 +1,93 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_navy">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="12dp"
+            android:background="@color/brand_navy">
+
+            <ImageButton
+                android:id="@+id/menu_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_toolbar_action"
+                android:src="@drawable/ic_round_menu"
+                android:scaleType="center"
+                android:contentDescription="@string/open_menu" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:maxWidth="168dp"
+                android:fontFamily="@font/inter"
+                android:text="@string/app_name"
+                android:textColor="@color/toolbar_title"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <ImageButton
+                android:id="@+id/search_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_toolbar_action"
+                android:src="@drawable/ic_search_plain"
+                android:scaleType="center"
+                android:contentDescription="@string/search_songs" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/toolbar_logo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_logo_circle"
+                android:clipToOutline="true"
+                android:contentDescription="@string/app_logo_description"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nyimbo_agendi_brand" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/surface"
+        app:headerLayout="@layout/drawer_header"
+        app:itemIconTint="@null"
+        app:itemTextColor="@color/charcoal"
+        app:menu="@menu/drawer_nav" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

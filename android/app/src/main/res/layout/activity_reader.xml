@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reader_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/brand_navy">
+
+    <LinearLayout
+        android:id="@+id/reader_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="12dp"
+        android:background="@color/brand_navy">
+
+        <ImageButton
+            android:id="@+id/reader_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_toolbar_action"
+            android:src="@drawable/ic_round_back"
+            android:contentDescription="@string/reader_back" />
+
+        <TextView
+            android:id="@+id/reader_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inter"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/app_name"
+            android:textColor="@color/toolbar_title"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:id="@+id/reader_favorite"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_toolbar_action"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/reader_favorite" />
+
+        <ImageView
+            android:id="@+id/reader_logo"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_logo_circle"
+            android:clipToOutline="true"
+            android:contentDescription="@string/app_logo_description"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nyimbo_agendi_brand" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:background="@color/ivory">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="560dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="24dp"
+                android:paddingTop="28dp"
+                android:paddingBottom="36dp"
+                android:background="@drawable/bg_hymn_paper">
+                <TextView
+                    android:id="@+id/reader_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gold"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.04" />
+                <TextView
+                    android:id="@+id/reader_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/inter"
+                    android:textColor="@color/navy"
+                    android:textSize="27sp"
+                    android:lineSpacingExtra="2dp" />
+                <View
+                    android:layout_width="52dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@color/gold" />
+                <TextView
+                    android:id="@+id/reader_lyrics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/inter"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@color/charcoal"
+                    android:textSize="21sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

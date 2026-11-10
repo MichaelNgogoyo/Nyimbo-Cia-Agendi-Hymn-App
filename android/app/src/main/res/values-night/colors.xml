@@ -1,0 +1,16 @@
+<resources>
+    <color name="navy">#E7EFE8</color>
+    <color name="brand_navy">#0E2018</color>
+    <color name="forest">#A4C7AE</color>
+    <color name="gold">#D7B779</color>
+    <color name="ivory">#111C16</color>
+    <color name="surface">#17231C</color>
+    <color name="toolbar_title">#FFFFFF</color>
+    <color name="icon_disc">#24382C</color>
+    <color name="icon_glyph">#F2F1EA</color>
+    <color name="icon_accent">#D7B779</color>
+    <color name="charcoal">#F2F1EA</color>
+    <color name="muted">#B7C1B8</color>
+    <color name="divider">#34433A</color>
+    <color name="demo_banner_bg">#26352C</color>
+</resources>
